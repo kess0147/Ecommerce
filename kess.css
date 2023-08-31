@@ -859,10 +859,97 @@ form {
     color: #000;
 }
 
+/*cart-new-page*/
+
+.cart-new{
+    
+}
+.purchase{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #0cc5f3;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    position: relative;
+    left: 500px;
+}
+.cart-new-items{
+
+}
+.remove-page{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.cart-new-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  
+}
+.single-pro-details-new-new{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.single-pro-details-new{
+
+   display: grid;
+   flex-direction: row;
+   justify-content: space-between;
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.shop-item-tittle, .shop-item-price{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.img{
+    position: relative;
+    left: 94px;
+}
+.title{
+    position: relative;
+    left: 90px;
+}
+.cart-new-price{
+    position: relative;
+    left: 70px;
+}
+.cart-new-quantity-input{
+    position: relative;
+    left: 70px;
+}
+.img-add-to-cart{
+    padding-bottom: 30px;
+}
+.add-btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #0cc5f3;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+.cart-total-price, .cart-total-title{
+ padding-bottom: 10px;
+}
+
 /*Cart page*/
 
 
-#cart table {
+/*#cart table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
@@ -964,7 +1051,7 @@ form {
     padding: 10px;
     font-size: 13px;
 }
-
+*/
 
 /*Start Media Query*/
 
@@ -1246,7 +1333,29 @@ form {
         width: 100%;
         padding: 20px;
     }
-    
+    .cart-new-items {
+      
+    }
+    .img{
+        position: relative;
+        left: 20px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .title{
+        padding-left: 0px;
+        position: relative;
+        left: 20px;
+    }
+    .purchase{
+        position: relative;
+        left: 20px;
+    }
+    .cart-new-price{
+        position: relative;
+        left: 20px;
+    }
+  
 
 }
 }
